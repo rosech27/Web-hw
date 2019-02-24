@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Latitude</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Plots <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="maxtemp.html">Max Temperature</a></li>
+          <li><a href="humidity.html">Humidity</a></li>
+          <li><a href="cloudy.html">Cloudiness</a></li>
+          <li><a href="wind.html">Wind Speed</a></li>
+        </ul>
+      </li>
+      <li><a href="compare.html">Comparison</a></li>
+      <li><a href="data.html">Data</a></li>
+    </ul>
+  </div>
+</nav>
+  
+<div class="container">
+    <div class="row">          
+        
+        <div class="col-md-6">
+            <h3>Summary : Latitude Vs X</h3>
+            <p>
+                    <img class="resizesm lf" src="Resources/assets/images/Fig1.png" alt="Temperature Map">
+                 
+                This website studies the correlation between Latitide and other weather parameter. to accoplish this we stidied over 500 cities by levraging openweather API
+            </p>
+
+            <p>                
+                The rest of the text here is not related. Just typing up stuff so I can see how the text behaves with an image. Perhaps far exposed age effects. Now distrusts you her delivered applauded affection out sincerity. As tolerably recommend shameless unfeeling he objection consisted. She although cheerful perceive screened throwing met not eat distance. Viewing hastily or written dearest elderly up weather it as. So direction so sweetness or extremity at daughters. Provided put unpacked now but bringing.
+                It is sunny today after several days of rainy weather.    
+            </p>
+        </div>
+        <div class="col-md-6">
+            <h3>Visualizations</h3> 
+            <div class="row"> 
+                <div class="col-md-6">
+                    <img class="resize" src="Resources/assets/images/Fig1.png" alt="Temperature Map">  
+                </div>
+                <div class="col-md-6">
+                    <img class="resize" src="Resources/assets/images/Fig2.png" alt="Humidity Map"> 
+                </div>
+            </div>
+            
+            <div class="row">
+                    <div class="col-md-6">
+                        <img class="resize" src="Resources/assets/images/Fig3.png" alt="Cloudiness Map"> 
+                    </div> 
+                    <div class="col-md-6">
+                        <img class="resize" src="Resources/assets/images/Fig4.png" alt="Wind Speed Map"> 
+                    </div> 
+            </div>            
+        </div>
+    </div>
+                             
+</div>
+</body>
+</html>
